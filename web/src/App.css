@@ -1,0 +1,20 @@
+.writing-page {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 48px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.writing-page textarea {
+  min-height: 240px;
+  padding: 12px;
+  font: inherit;
+  resize: vertical;
+}
+
+.writing-page button {
+  align-self: flex-end;
+  padding: 10px 16px;
+}
